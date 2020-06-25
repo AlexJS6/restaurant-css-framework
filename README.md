@@ -1,8 +1,8 @@
 # restaurant-css-framework
--
 
 Ce projet est la première création d'un site web à l'aide du framework **bootstrap**.
 -
+<br>
 
 Ce site web sera pour un **restaurant fictif** qui aura été crée sans travail de groupe.
 
