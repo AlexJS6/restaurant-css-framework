@@ -1,0 +1,18 @@
+.col-md-12 {
+    height: 210px;
+}
+body {
+    background-image: url(photos.jpg/photo-cuisine.jpg);
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+    background-color: rgb(248, 232, 201);
+}
+.jumbotron {
+    color: white;
+}
+.card-body {
+    background-image: linear-gradient(to bottom, white 40%, red);
+}
+.jumbotron h1, h2 {
+    font-size: 500%;
+}
