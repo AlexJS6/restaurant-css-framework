@@ -10,7 +10,7 @@ Ce site web sera pour un **restaurant fictif** qui aura été crée sans travail
 Les instructions pour ce projet:
 ----
 link
-
+<br>
 
 Ce *projet* a été crée en 4 jours: jeudi 25/06/20, vendredi 26/06/20, lundi 29/06/20, mardi 30/06/20.
 Il a été fait entièrement en remote
@@ -20,8 +20,7 @@ Il a été fait entièrement en remote
 
 
 Le projet est **en cours** en ce moment.
-
-
+<br>
 Vous pouvez visionner le site [ici]().
 
 
