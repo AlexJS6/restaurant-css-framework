@@ -1,18 +1,100 @@
-.col-md-12 {
+/*---------------------------WELCOME AND BODY --------------------------*/
+.white-row {
     height: 210px;
 }
-body {
+.body_welcome {
+    font-family: 'Merienda', cursive;
     background-image: url(photos.jpg/photo-cuisine.jpg);
     background-size: 100% 700px;
     background-repeat: no-repeat;
     background-color: rgb(248, 232, 201);
 }
-.jumbotron {
+.body_welcome .jumbotron {
     color: white;
 }
 .card-body {
     background-image: linear-gradient(to bottom, white 40%, red);
 }
-.jumbotron h1, h2 {
-    font-size: 500%;
+.body_welcome .jumbotron h1, h2 {
+    font-size: 400%;
 }
+.my_button {
+    color: black;
+    height: 60px;
+    width: 200px;
+    filter: opacity(1);
+    border: 3px solid white;
+    background-color: white;
+}
+.my_button:hover {
+    filter: opacity(0.7);
+    color: white;
+    background-color: black;
+    font-size: 120%;
+}
+.voir_menu {
+    font-size: 130%;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.nav-item:active {
+    border: 1px solid white;
+}
+.nav-item, .navbar-brand {
+    font-size: 130%;
+    font-weight: bold;
+}
+/* ----------------------Menu page---------------------------- */
+.body_menu {
+    background-image: url(photos.jpg/menu-photo2.jpg);
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+    background-color: rgb(228, 224, 216);
+    font-family: 'Merienda', cursive;
+    font-size: 100%;
+}
+.white-row-menu1 {
+    height: 330px;
+}
+.white-row-menu {
+    height: 100px;
+}
+.col-2 h2 {
+    font-size: 300%;
+    text-decoration: underline;
+}
+.body_menu .jumbotron h1 {
+    font-size: 550%;
+    color: white;
+}
+.body_menu .jumbotron h2 {
+    font-size: 270%;
+    color: white;
+}
+/*--------------------------------PICTURES_-------------------------------*/
+.body_pictures {
+    font-family: 'Merienda', cursive;
+    background-image: url(photos.jpg/Pictures_photo.jpg);
+    background-size: cover;
+}
+.d-lg-inline {
+    transition: 1s ease ;
+}
+.d-lg-inline:active {
+    transform: scale(2);
+}
+.carousel-inner {
+    padding-top: 100px;
+    padding-left: 105px;
+    padding-bottom: 100px;
+}
+.pictures_header {
+    font-size: 330%;
+    text-decoration: underline;
+}
+.my_footer {
+    font-size: 120%;
+}
+
