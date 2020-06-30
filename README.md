@@ -24,7 +24,7 @@ Le projet est **en cours** en ce moment.
 <br>
 Vous pouvez visionner le site [ici]().
 <br>
-Credit pictures Pixabay et Pexels.
+Credit pictures Pixabay, Pexels, PngTree, StickPng.
 
 
 
