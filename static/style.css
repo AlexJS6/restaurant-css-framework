@@ -40,6 +40,9 @@
 .white-row {
     height: 210px;
 }
+.no_deco {
+    text-decoration: none;
+}
 .body_welcome {
     font-family: 'Merienda', cursive;
     background-image: url(photos.jpg/welcome_picture7.jpg);
