@@ -20,7 +20,6 @@ https://github.com/becodeorg/BXL-Swartz-3-21/blob/master/03-HTML-CSS/bootstrap/r
 Ce *projet* a été crée en 4 jours: jeudi 25/06/20, vendredi 26/06/20, lundi 29/06/20, mardi 30/06/20.
 Il a été fait **entièrement** en remote.
 <br>
-<br>
 Le projet contient donc le site d'un restaurant avec les pages suivantes: 
 * Welcome
 * Menu
