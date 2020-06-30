@@ -4,7 +4,7 @@ Ce projet est la première création d'un site web à l'aide du framework **boot
 -
 <br>
 <br>
-Ce site web sera pour un **restaurant fictif** qui aura été crée sans travail de groupe.
+Ce site web sera pour un **restaurant** **fictif** qui aura été crée sans travail de groupe.
 <br>
 <br>
 Les Langages Utilisés sont les suivants: 
