@@ -25,10 +25,11 @@ Le projet contient donc le site d'un restaurant avec les pages suivantes:
 * Menu
 * Pictures 
 * Restaurants 
-*ContactF
-*Form.
+* Contact
+* Form.
 <br>
 Vous pouvez visionner le site [ici]().
+<br>
 <br>
 Credits pictures:  Pixabay, Pexels, PngTree, StickPng.
 
