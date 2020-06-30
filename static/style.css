@@ -1,10 +1,48 @@
+/*---------------------------Keyframes--------------------------------------*/
+@keyframes animation1 {
+    0% {
+        transform: translateY(-500px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0px);
+
+    }
+    60% {
+        transform: translateY(-50px);
+    }
+    70% {
+        transform: translateY(0px);
+    }
+    85% {
+        transform: translateY(-25px);
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 /*---------------------------WELCOME AND BODY --------------------------*/
+.navbar .active {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
 .white-row {
     height: 210px;
 }
 .body_welcome {
     font-family: 'Merienda', cursive;
-    background-image: url(photos.jpg/photo-cuisine.jpg);
+    background-image: url(photos.jpg/welcome_picture7.jpg);
     background-size: 100% 700px;
     background-repeat: no-repeat;
     background-color: rgb(248, 232, 201);
@@ -46,6 +84,12 @@
     font-size: 130%;
     font-weight: bold;
 }
+.photo1 {
+    box-shadow: 3px 3px 5px black;
+}
+.photo2 {
+    box-shadow: 5px 5px 8px black;
+}
 /* ----------------------Menu page---------------------------- */
 .body_menu {
     background-image: url(photos.jpg/menu-photo2.jpg);
@@ -82,8 +126,8 @@
 .d-lg-inline {
     transition: 1s ease ;
 }
-.d-lg-inline:active {
-    transform: scale(2);
+.d-lg-inline:hover {
+    transform: scale(1.4);
 }
 .carousel-inner {
     padding-top: 100px;
@@ -96,5 +140,58 @@
 }
 .my_footer {
     font-size: 120%;
+    font-weight: 500;
 }
-
+/*--------------------------FORM----------------------------------------------------*/
+form {
+    background-image: linear-gradient(to bottom, rgb(226, 245, 250), rgb(116, 165, 182),rgb(236, 181, 29));
+    border-radius: 30px;
+    animation: animation1 1.4s cubic-bezier(0,.27,0,1.65)/*cubic-bezier(.1,.53,0,1.24)*/ 1s 1 both;
+}
+.form_body {
+    background-image: url(photos.jpg/form_picture0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form_header {
+    text-decoration: underline;
+}
+/*-----------------------------------RESTAURANTS------------------------------------*/
+.restaurants_body {
+    background-image: url(photos.jpg/restaurants_picture10.jpg);
+    font-family: 'Merienda', cursive;
+}
+.my_hover {
+    transition: 1s ease;
+}
+.my_hover:hover {
+    transform: scale(1.2);
+}
+.restaurant_h1 {
+    text-decoration: underline;
+}
+/*--------------------------------CONTACT------------------------------------------*/
+.contact_body {
+    font-family: 'Merienda', cursive;
+    background-image: url(photos.jpg/contact_picture7.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(233, 203, 203);
+}
+.big_contact {
+    background-color: rgb(243, 225, 225);
+}
+.my_h5 {
+    text-decoration: underline;
+}
+.social_media {
+    text-decoration: underline;
+}
+.social_media:active {
+    animation: rotation 0.2s ease;
+}
+.social_media:hover {
+    transform: scale(1.1);
+}
+.contact_underline {
+    text-decoration: underline;
+}

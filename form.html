@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+  crossorigin="anonymous"
+  >
+    <link rel="stylesheet" href="static/style.css">
+    <title>Document</title>
+</head>
+<body class="form_body">
+    <div class="container">
+        <form class="photo2">
+            <div class="form-row mt-5 mb-4">
+                <div class="col-8  offset-4 offset-lg-5 mt-3">
+                    <h3 class="form_header">Book a table</h3>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-12 col-lg-4 offset-lg-2 px-4 px-lg-1">
+                    <label for="first_name">First name</label>
+                    <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="form-group col-lg-4 col-12 required px-4 px-lg-1">
+                    <label for="last_name">Last name</label>
+                    <input type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-12 col-lg-4 offset-lg-2 px-4 px-lg-1">
+                    <label for="phone_number">Phone Number</label>
+                    <input type="text" class="form-control px-4 px-lg-1" placeholder="ex: +32 477/66-3344">
+                    <small id="phone-number" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
+                </div>
+                <div class="form-group col-12 col-lg-4 px-4 px-lg-1">
+                    <label for="which_restaurant">Restaurants</label>
+                    <select id="which_restaurant" class="form-control px-4 px-lg-1">
+                        <option selected>Restaurants...</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-12 col-lg-4 offset-lg-4 px-4 px-lg-1">
+                    <label for="what_time">Time</label>
+                    <select id="what_time" class="form-control">
+                        <option selected>Time...</option>
+                        <option>18:00</option>
+                        <option>18:30</option>
+                        <option>19:00</option>
+                        <option>19:30</option>
+                        <option>20:00</option>
+                        <option>20:30</option>
+                        <option>21:00</option>
+                        <option>21:30</option>
+                        <option>22:00</option>
+                        <option>22:30</option>
+                        <option>23:00</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                    <label for="text_area" class="offset-2 px-4 px-lg-1">Requests</label>
+                    <textarea id="text_area" rows="5" class="form-control col-10 col-lg-8 offset-1 offset-lg-2 mb-3 px-4 px-lg-1"></textarea>
+                </div>
+            </div>
+            <div class="form-row mt-3 ml-5">
+                <button type="submit" class="btn btn-primary btn-lg offset-3 offset-lg-5">Book my table</button>
+            </div>
+        </form>
+        <div class="row mt-5">
+            <div class="col offset-5">
+                <p class="my_footer">&copy; 2020 Polacy-Dinner.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
