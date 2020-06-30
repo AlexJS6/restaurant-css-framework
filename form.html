@@ -10,11 +10,11 @@
   crossorigin="anonymous"
   >
     <link rel="stylesheet" href="static/style.css">
-    <title>Document</title>
+    <title>Polacy_Form</title>
 </head>
 <body class="form_body">
     <div class="container">
-        <form class="photo2">
+        <form class="photo2 form_form">
             <div class="form-row mt-5 mb-4">
                 <div class="col-8  offset-2 offset-md-3 offset-lg-4 mt-3">
                     <h3 class="form_header">Book a table for Polacy</h3>
@@ -27,29 +27,29 @@
                 </div>
                 <div class="form-group col-lg-4 col-12 required px-4 px-lg-1">
                     <label for="last_name">Last name</label>
-                    <input type="text" class="form-control" placeholder="Last name">
+                    <input type="text" class="form-control" placeholder="Last name" required>
                 </div>
             </div>
             <div class="form-row">
                 <div class="form-group col-12 col-lg-4 offset-lg-2 px-4 px-lg-1">
                     <label for="phone_number">Phone Number</label>
-                    <input type="text" class="form-control px-4 px-lg-1" placeholder="ex: +32 477/66-3344">
+                    <input type="text" class="form-control px-4 px-lg-1" placeholder="ex: +32 477/66-3344" required>
                     <small id="phone-number" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
                 </div>
                 <div class="form-group col-12 col-lg-4 px-4 px-lg-1">
                     <label for="which_restaurant">Restaurants</label>
-                    <select id="which_restaurant" class="form-control px-4 px-lg-1">
+                    <select id="which_restaurant" class="form-control px-4 px-lg-1" required>
                         <option selected>Restaurants...</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
+                        <option>Leninskiy Prospekt, 14, Norilsk</option>
+                        <option>8 Pułku Artylerii Lekkiej 2</option>
+                        <option>Inarintie 45, 99870</option>
                     </select>
                 </div>
             </div>
             <div class="form-row">
                 <div class="form-group col-12 col-lg-4 offset-lg-4 px-4 px-lg-1">
                     <label for="what_time">Time</label>
-                    <select id="what_time" class="form-control">
+                    <select id="what_time" class="form-control" required>
                         <option selected>Time...</option>
                         <option>18:00</option>
                         <option>18:30</option>
