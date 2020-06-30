@@ -27,7 +27,9 @@ Le projet contient donc le site d'un restaurant avec les pages suivantes:
 * Restaurants 
 * Contact
 * Form.
+<br>
 Vous pouvez visionner le site [ici](https://alexjs6.github.io/restaurant-css-framework/index.html).
+<br>
 Credits pictures:  Pixabay, Pexels, PngTree, StickPng.
 
 
